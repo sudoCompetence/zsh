@@ -367,8 +367,8 @@
   # typeset -g POWERLEVEL9K_VCS_CONFLICTED_BACKGROUND=1
   # typeset -g POWERLEVEL9K_VCS_LOADING_BACKGROUND=8
   typeset -g POWERLEVEL9K_VCS_CLEAN_BACKGROUND=233
-  typeset -g POWERLEVEL9K_VCS_MODIFIED_BACKGROUND=208
-  typeset -g POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND=220
+  typeset -g POWERLEVEL9K_VCS_MODIFIED_BACKGROUND=220
+  typeset -g POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND=208
   typeset -g POWERLEVEL9K_VCS_CONFLICTED_BACKGROUND=239
   typeset -g POWERLEVEL9K_VCS_LOADING_BACKGROUND=8
 
@@ -551,22 +551,22 @@
   # Status on success. No content, just an icon. No need to show it if prompt_char is enabled as
   # it will signify success by turning green.
   typeset -g POWERLEVEL9K_STATUS_OK=true
-  typeset -g POWERLEVEL9K_STATUS_OK_FOREGROUND=232
-  typeset -g POWERLEVEL9K_STATUS_OK_BACKGROUND=10
+  typeset -g POWERLEVEL9K_STATUS_OK_FOREGROUND=237
+  typeset -g POWERLEVEL9K_STATUS_OK_BACKGROUND=22
   typeset -g POWERLEVEL9K_STATUS_OK_VISUAL_IDENTIFIER_EXPANSION='✓ '
 
   # Status when some part of a pipe command fails but the overall exit status is zero. It may look
   # like this: 1|0.
   typeset -g POWERLEVEL9K_STATUS_OK_PIPE=true
-  typeset -g POWERLEVEL9K_STATUS_OK_PIPE_FOREGROUND=232
-  typeset -g POWERLEVEL9K_STATUS_OK_PIPE_BACKGROUND=10
+  typeset -g POWERLEVEL9K_STATUS_OK_PIPE_FOREGROUND=221
+  typeset -g POWERLEVEL9K_STATUS_OK_PIPE_BACKGROUND=22
   typeset -g POWERLEVEL9K_STATUS_OK_PIPE_VISUAL_IDENTIFIER_EXPANSION='✓ '
 
   # Status when it's just an error code (e.g., '1'). No need to show it if prompt_char is enabled as
   # it will signify error by turning red.
   typeset -g POWERLEVEL9K_STATUS_ERROR=true
-  typeset -g POWERLEVEL9K_STATUS_ERROR_FOREGROUND=1
-  typeset -g POWERLEVEL9K_STATUS_ERROR_BACKGROUND=232
+  typeset -g POWERLEVEL9K_STATUS_ERROR_FOREGROUND=238
+  typeset -g POWERLEVEL9K_STATUS_ERROR_BACKGROUND=237
   typeset -g POWERLEVEL9K_STATUS_ERROR_VISUAL_IDENTIFIER_EXPANSION='✘'
 
   # Status when the last command was terminated by a signal.
@@ -1688,7 +1688,7 @@
   ####################################[ time: current time ]####################################
   # Current time color.
   typeset -g POWERLEVEL9K_TIME_FOREGROUND=232
-  typeset -g POWERLEVEL9K_TIME_BACKGROUND=231
+  typeset -g POWERLEVEL9K_TIME_BACKGROUND=235
   # Format for the current time: 09:51:02. See `man 3 strftime`.
   typeset -g POWERLEVEL9K_TIME_FORMAT='%D{%H:%M:%S}'
   # If set to true, time will update when you hit enter. This way prompts for the past

@@ -1,7 +1,4 @@
 export LANG=en_US.UTF-8
-HISTFILE=~/.zshist
-HISTSIZE=1000
-SAVEHIST=1000
 bindkey -v
 
 export ZSH=$HOME/.config/zsh
@@ -9,6 +6,10 @@ source $ZSH/.p10k.zsh
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+HISTFILE=$ZSH/.zshist
+HISTSIZE=1000
+SAVEHIST=1000
 
 # --- Completion system ---
 zstyle :compinstall filename '/home/admin/.zshrc'
